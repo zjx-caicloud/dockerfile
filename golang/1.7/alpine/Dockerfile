@@ -1,4 +1,4 @@
-FROM golang:1.8.0-alpine
+FROM golang:1.7.5-alpine
 
 RUN apk add --no-cache \
 		ca-certificates \
@@ -8,7 +8,9 @@ RUN apk add --no-cache \
 		gcc \
 		musl-dev \
 		cmake \
-		make
+		make \
+		git \
+		subversion
 
 ENV DOCKER_BUCKET get.docker.com
 ENV DOCKER_VERSION 17.03.0-ce
