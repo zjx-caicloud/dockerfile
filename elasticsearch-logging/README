@@ -1,0 +1,1 @@
+与上游的镜像相比，加了add-template.sh脚本，来加载k8s-template-logstash.json。因为es从2.0开始，不支持文件加载template，只能以curl api的方式。
