@@ -33,8 +33,6 @@ RUN pip --no-cache-dir install \
          matplotlib \
          pandas \
          scipy \
-         sklearn 
-
-RUN pip --no-cache-dir install \
-    tensorflow==1.4.0 \
-    tensorflow-tensorboard==0.4.0rc3
+         sklearn \
+         tensorflow==1.4.0 \
+         tensorflow-tensorboard==0.4.0rc3
